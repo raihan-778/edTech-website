@@ -20,7 +20,7 @@
     <!-- style link for custom css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="bg-dark">
+  <body>
     <header >
       <!-- navigation part start -->
       <nav class=" py-3 navbar navbar-expand-lg bg-light">
@@ -73,7 +73,7 @@
     </header>
     <main class="bg-light">
     <!-- banner-slider section start -->
-    <section class="container banner p-5">
+    <section class="container banner p-5 ">
       <div
         id="carouselExampleDark"
         class="carousel carousel-dark slide"
@@ -101,7 +101,7 @@
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner bg-dark">
+        <div class="carousel-inner bg-dark rounded-3">
           <div class="carousel-item active" data-bs-interval="10000">
             <img
               src="images/cover/cover-1.png"
@@ -325,6 +325,51 @@
       </div>
     </section>
     <!-- Courses section end -->
+
+    <!-- Registration section start -->
+    <section class="registration container bg-danger rounded-3 py-5 text-white">
+      <div class="d-flex  justify-content-end align-items-center ">
+        <div class="col-6">
+          <h2>Ready to join</h2>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="col-4">
+           <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Register Now
+          </button>
+        </div>
+      </div>
+      
+
+
+
+    
+
+    </section>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Please Register With Your Email</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- Registration section end -->
+
     <!-- FAQ Section start -->
     <section class="accordion container my-5">
       <div class="accordion-header text-center">
@@ -343,7 +388,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
               <button
-                class="accordion-button fs-5 fs-5 fw-normal collapsed"
+                class="accordion-button fs-5 fw-semibold collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne"
@@ -493,7 +538,7 @@
     <!-- Trusted partners section end -->
 
     <!-- Footer section Started -->
-    <footer class="container bg-dark py-5">
+    <footer class="container bg-dark py-5 rounded-2">
       <h2 class="text-center text-white">Learn With Fun</h2>
       <div
         class="footer-content d-flex justify-content-center align-atems-center"
@@ -510,10 +555,10 @@
           </li>
           <li class="list-group-item border-0 bg-dark text-white">
             <div>
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
-              <a href=""><i class="fa-brands fa-telegram"></i></a>
+              <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook fs-2 px-2"></i></a>
+              <a href="https://twitter.com/?lang=en target="_blank""><i class="fa-brands fa-twitter fs-2 px-2"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fs-2 px-2"></i></a>
+              <a href="https://telegram.org/" target="_blank"><i class="fa-brands fa-telegram fs-2 px-2"></i></a>
             </div>
           </li>
         </ul>
