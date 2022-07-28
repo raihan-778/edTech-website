@@ -11,10 +11,10 @@ body {
 main {
   background-color: #f1f1f1;
 }
-.list-group {
-  background-color: none;
-  color: white;
-}
+
 .explor {
   background-color: #eaf0f3;
+}
+.carousel-item > img {
+  height: 600px;
 }
